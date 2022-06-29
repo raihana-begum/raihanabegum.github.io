@@ -1,0 +1,31 @@
+{
+  "name": "raihanabegum.github.io",
+  "version": "0.1.0",
+  "description": "A docker container for hosting raihanabegum.github.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raihana-begum/raihanabegum.github.io.git"
+  },
+  "keywords": [
+    "static",
+    "website",
+    "public",
+    "express"
+  ],
+  "author": "Raihana Begum <raihanabegum2022@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raihana-begum/raihanabegum.github.io/issues"
+  },
+  "homepage": "https://github.com/raihana-begum/raihanabegum.github.io",
+  "dependencies": {
+    "compression": "^1.0.8",
+    "express": "^4.4.4",
+    "serve-static": "^1.2.3"
+  }
+}
